@@ -15,9 +15,24 @@ class MyApp extends StatelessWidget {
           children: <Widget>[
             CircleAvatar(
               radius: 50,
-//              backgroundColor: Colors.red,
               backgroundImage: AssetImage('images/atm.jpg'),
-            )
+            ),
+            Text(
+              'Atreyee Mukherjee',
+              style: TextStyle(
+                  fontSize: 36,
+                  color: Colors.white,
+                  fontFamily: 'Pacifico',
+                  fontWeight: FontWeight.bold),
+            ),
+            Text(
+              "Amartya's Love",
+              style: TextStyle(
+                  fontSize: 24,
+                  color: Colors.white,
+                  letterSpacing: 1,
+                  fontWeight: FontWeight.bold),
+            ),
           ],
         )),
       ),
